@@ -1,0 +1,57 @@
+.mainsite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+#flexHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    width: 75%;
+}
+
+#headerLogo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+#headerLinks {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#flexIntroInner {
+    display: flex;
+    flex-direction: column;
+}
+
+#flexIntro {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#funButtonTitle {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#funButtonText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#funButton {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
